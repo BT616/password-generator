@@ -1,5 +1,35 @@
 // Assignment code here
 
+var length = window.prompt("How many characters? Enter from 8-128");
+
+
+
+
+
+function generatePassword(){
+    var char = {
+        lowercase: 'abcdefghijklmnopqrstuvwxyz',
+        uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        numberic: '12345677890',
+        special: '!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
+    
+    };
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
