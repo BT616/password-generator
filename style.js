@@ -2,8 +2,7 @@
 
 var length = window.prompt("How many characters? Enter from 8-128");
 
-
-
+var character = window.prompt("Add character type: uppercase,lowercase,numeric,special.");
 
 
 function generatePassword(){
