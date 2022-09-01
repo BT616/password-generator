@@ -6,15 +6,16 @@ var character = window.prompt("Add character type: uppercase,lowercase,numeric,s
 
 
 function generatePassword(){
-    var char = {
+    var characterSet = {
         lowercase: 'abcdefghijklmnopqrstuvwxyz',
         uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
         numberic: '12345677890',
-        special: '!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
-    
+        special: '!"#$%&()*+,-./:;<=>?@[\]^_`{|}~',
     };
   
 }
+
+
 
 
 
