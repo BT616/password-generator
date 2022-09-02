@@ -15,14 +15,10 @@ var specialSelect;
 var password="";
 var passwordChar ="";
 
-
-
 function generatePassword(){
 
-
-
 var passwordLength = window.prompt("How many characters? Enter from 8-128");
-passwordLength = ;
+passwordLength = parseInt(passwordLength);
 
 
 
@@ -51,13 +47,12 @@ console.log(passwordChar)
 
 
 for (var i = 0; i < passwordLength; i++) {
-password=passwordChar[Math.floor(Math.random() * passwordChar.length)]
+password= password + passwordChar[Math.floor(Math.random() * passwordChar.length)]
 console.log(password)
 }
 return password;
   
   }
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
